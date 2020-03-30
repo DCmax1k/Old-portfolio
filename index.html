@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link
+      rel="icon"
+      href="https://www.dcmax1k.tk/images/dcmax1klogo-round.png"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta name="description" content="Dylan Caldwell Portfolio" />
+    <title>Dylan Caldwell</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="App">
+      <section id="home">
+        <div class="header">
+          <header>
+            <h1>Dylan Caldwell</h1>
+            <div class="nav">
+              <ul>
+                <li>
+                  <a href="#home">Home</a>
+                </li>
+                <li>
+                  <a href="#projects">Projects</a>
+                </li>
+                <li>
+                  <a href="#contact">Contact Me</a>
+                </li>
+              </ul>
+            </div>
+          </header>
+        </div>
+        <div class="title">
+          <h1>Dylan Caldwell</h1>
+          <h3>Front End Developer</h3>
+
+          <div class="title-links">
+            <ul>
+              <li>
+                <a href="#projects">Projects</a>
+              </li>
+              <li>
+                <a href="#contact">Contact Me!</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <section id="projects">
+        <div class="projects-title">
+          <h1>My Projects</h1>
+        </div>
+        <div class="projects">
+          <div class="project">
+            <h1>Random Answer Generater</h1>
+            <img
+              src="images/Project1.PNG"
+              alt="https://www.dcmax1k.tk"
+              width="270px"
+            />
+            <div class="project-tools">
+              <ul>
+                <li>HTML</li>
+                <li>Javascript</li>
+                <li>CSS</li>
+                <li>React</li>
+                <li class="project-link" onClick="firstLink()">
+                  View Site
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="project">
+            <h1>Portfolio</h1>
+            <img
+              src="images/Project2.PNG"
+              alt="https://www.dylancaldwell.tk"
+              width="270px"
+            />
+            <div class="project-tools">
+              <ul>
+                <li>HTML</li>
+                <li>Javascript</li>
+                <li>CSS</li>
+                <li>Sass</li>
+                <li class="project-link" onClick="secLink()">
+                  View Site
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="contact">
+        <div class="contact-title">
+          <h1>Contact Me!</h1>
+        </div>
+        <form name="contact" method="POST" action="/" data-netlify="true">
+          <p>
+            <label for="form-name">Name</label>
+            <input
+              id="form-name"
+              type="text"
+              placeholder="Your name..."
+              required
+            />
+          </p>
+          <p>
+            <label for="form-email">Email</label>
+            <input
+              id="form-email"
+              type="email"
+              placeholder="Your email..."
+              required
+            />
+          </p>
+          <p>
+            <label for="form-message">Message</label>
+            <textarea
+              id="form-message"
+              cols="30"
+              placeholder="Your message..."
+              rows="10"
+              required
+              spellcheck="true"
+            ></textarea>
+          </p>
+          <p class="submit-btn-cont">
+            <input type="submit" value="Submit!" class="submit-btn" />
+          </p>
+        </form>
+      </section>
+    </div>
+
+    <script src="main.js"></script>
+  </body>
+</html>
