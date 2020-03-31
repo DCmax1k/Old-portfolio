@@ -148,13 +148,15 @@ header h1 {
 }
 
 .projects-title,
-.contact-title {
+.contact-title,
+.thanks-title {
   display: flex;
   justify-content: center;
 }
 
 .projects-title h1,
-.contact-title h1 {
+.contact-title h1,
+.thanks-title h1 {
   font-size: 40px;
   font-family: 'Play', sans-serif;
   margin-top: 100px;
@@ -304,4 +306,11 @@ header h1 {
 .submit-btn:hover {
   border: 2px solid rgb(0, 113, 128);
   background: white;
+}
+
+#contactpage {
+  height: 100vh;
+  background: rgb(41, 41, 41);
+  width: 100%;
+  border-bottom: 3px solid rgb(0, 225, 255);
 }
