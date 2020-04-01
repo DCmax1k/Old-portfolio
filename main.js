@@ -25,7 +25,6 @@ navTogClose.addEventListener('click', () => {
 });
 
 // Menu toggle after selecting a link
-
 const navMenuHome = document.querySelector('.navMenu-home');
 const navMenuProjects = document.querySelector('.navMenu-projects');
 const navMenuContact = document.querySelector('.navMenu-contact');
@@ -44,4 +43,20 @@ navMenuContact.addEventListener('click', () => {
   navMenu.classList.toggle('active');
   navTogOpen.classList.toggle('active');
   navTogClose.classList.toggle('active');
+});
+
+// Form message 'ENTER' to submit
+const formMessage = document.getElementById('form-message');
+formMessage.addEventListener('keyup', event => {
+  if (event.which === 13 || event.keyCode === 13) {
+    document.querySelector('.submit-btn').click();
+  }
+});
+
+// Back to site button, adding event listener 'keyup' event === 13 (enter key)
+const backToSiteBtn = document.getElementById('backToSite');
+addEventListener('keyup', event => {
+  if (event.which === 13 || event.keyCode === 13) {
+    backToSiteBtn.click();
+  }
 });
