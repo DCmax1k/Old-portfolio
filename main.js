@@ -33,12 +33,15 @@ const navMenuContact = document.querySelector('.navMenu-contact');
 navMenuHome.addEventListener('click', () => {
   navMenu.classList.toggle('active');
   navTogOpen.classList.toggle('active');
+  navTogClose.classList.toggle('active');
 });
 navMenuProjects.addEventListener('click', () => {
   navMenu.classList.toggle('active');
   navTogOpen.classList.toggle('active');
+  navTogClose.classList.toggle('active');
 });
 navMenuContact.addEventListener('click', () => {
   navMenu.classList.toggle('active');
   navTogOpen.classList.toggle('active');
+  navTogClose.classList.toggle('active');
 });
