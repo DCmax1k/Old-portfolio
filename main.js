@@ -55,7 +55,7 @@ formMessage.addEventListener('keyup', event => {
 
 // Back to site button, adding event listener 'keyup' event === 13 (enter key)
 const backToSiteBtn = document.getElementById('backToSite');
-addEventListener('keyup', event => {
+window.addEventListener('keyup', event => {
   if (event.which === 13 || event.keyCode === 13) {
     backToSiteBtn.click();
   }
