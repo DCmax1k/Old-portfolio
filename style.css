@@ -179,7 +179,9 @@ header h1 {
   font-family: 'Play', sans-serif;
   animation-name: fade-in;
   animation-duration: 2s;
-  animation-delay: 1s;
+  animation-delay: 0.5s;
+  opacity: 0;
+  animation-fill-mode: forwards;
 }
 
 .title h3 {
