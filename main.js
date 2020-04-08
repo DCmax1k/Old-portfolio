@@ -7,6 +7,10 @@ const secLink = () => {
   window.open('https://www.dylancaldwell.tk');
 };
 
+const thirdLink = () => {
+  window.open('https://www.rolldice.tk');
+};
+
 // Menu toggle/animation
 const navTogOpen = document.querySelector('.navTogOpen');
 const navTogClose = document.querySelector('.navTogClose');
@@ -47,7 +51,7 @@ navMenuContact.addEventListener('click', () => {
 
 // Form message 'ENTER' to submit
 const formMessage = document.getElementById('form-message');
-formMessage.addEventListener('keyup', event => {
+formMessage.addEventListener('keyup', (event) => {
   if (event.which === 13 || event.keyCode === 13) {
     document.querySelector('.submit-btn').click();
   }
@@ -55,7 +59,7 @@ formMessage.addEventListener('keyup', event => {
 
 // Back to site button, adding event listener 'keyup' event === 13 (enter key)
 const backToSiteBtn = document.getElementById('backToSite');
-window.addEventListener('keyup', event => {
+window.addEventListener('keyup', (event) => {
   if (event.which === 13 || event.keyCode === 13) {
     backToSiteBtn.click();
   }
