@@ -1,20 +1,18 @@
- https://www.dylancaldwell.tk
- 
- ## Projects
+[Project HERE](https://www.dylancaldwell.tk)
 
-Earlier projects included only HTML/CSS/Javacript. An example of this is [DCmax1k](https://www.dcmax1k.tk)
+## About the Project!
 
-Later projects starting including frameworks, and libraries, such as React like this project. ([Porfolio](https://www.dylancaldwell.tk))
+This is my portfolio! There are my most popular projects, and a contact section within it!
 
-## Skills
+## Skills used:
 
 ### Front End:
 
 HTML
-<br/>
+<br />
 CSS
-<br/>
-Javascript
+<br />
+JavaScript
 
 ### Version Control:
 
@@ -23,10 +21,3 @@ Git
 ### Libraries:
 
 Sass
-
-### Frameworks:
-
-React
-
-
-
