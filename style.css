@@ -343,6 +343,7 @@ header h1 {
   margin: 5px;
   text-decoration: underline;
   text-decoration-color: rgb(0, 225, 255);
+  text-align: center;
 }
 
 .project-tools {

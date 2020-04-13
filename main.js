@@ -2,13 +2,14 @@
 const firstLink = () => {
   window.open('https://www.dcmax1k.tk');
 };
-
 const secLink = () => {
   window.open('https://www.dylancaldwell.tk');
 };
-
 const thirdLink = () => {
   window.open('https://www.rolldice.tk');
+};
+const fourthLink = () => {
+  window.open('https://www.rock-paper-scissors.tk');
 };
 
 // Menu toggle/animation
