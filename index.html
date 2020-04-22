@@ -127,7 +127,7 @@
         <div class="contact-title">
           <h1>Contact Me!</h1>
         </div>
-        <form action="/thanks.html" name="contact">
+        <form method="POST" netlify action="/thanks.html" name="contact">
           <p>
             <label for="form-name">Name</label>
             <input
@@ -161,7 +161,12 @@
             ></textarea>
           </p>
           <p class="submit-btn-cont">
-            <input type="submit" value="Submit!" class="submit-btn" />
+            <input
+              name="submit-btn"
+              type="submit"
+              value="Submit!"
+              class="submit-btn"
+            />
           </p>
         </form>
       </section>
