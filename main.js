@@ -11,6 +11,9 @@ const thirdLink = () => {
 const fourthLink = () => {
   window.open('https://www.rock-paper-scissors.tk');
 };
+const fithLink = () => {
+  window.open('https://www.magic-calculator.tk');
+};
 
 // Menu toggle/animation
 const navTogOpen = document.querySelector('.navTogOpen');
