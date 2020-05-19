@@ -14,7 +14,9 @@ const fourthLink = () => {
 const fithLink = () => {
   window.open('https://www.magic-calculator.tk');
 };
-
+const sixthLink = () => {
+  window.open('https://note-keeper-api.herokuapp.com');
+};
 // Menu toggle/animation
 const navTogOpen = document.querySelector('.navTogOpen');
 const navTogClose = document.querySelector('.navTogClose');
